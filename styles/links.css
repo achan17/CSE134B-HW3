@@ -50,3 +50,17 @@ footer{
     text-align: center;
 }
 
+table{
+    display: grid;
+}
+
+th{
+    grid-row: 1;
+    
+}
+
+td{
+    grid-row-start: 2;
+    grid-column-end: span 2;
+}
+

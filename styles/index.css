@@ -41,7 +41,7 @@ header {
     text-align: center;
 }
 
-header > h1 {
+header:has(> h1) {
     animation: bounce 2s ease;
 }
 
