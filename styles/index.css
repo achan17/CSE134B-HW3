@@ -1,0 +1,61 @@
+:root {
+    --main-bg-color: #7fffd4;
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Raleway/static/Raleway-Light.ttf");
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-style: bold;
+    font-weight: 400;
+    src: url("../fonts/Raleway/static/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/Raleway/static/Raleway-Italic.ttf");
+}
+
+
+body {
+    display: grid;
+    grid-template-columns: [first] 33dvh [line2] 33dvh [line3] 33dvh;
+    grid-template-rows: [row1] 33dvw [row2] 33dvw [row3] 33dvw;
+    background-color: var(--main-bg-color);
+    font-family: "Raleway", Tahoma;
+}
+
+header {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+main {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+li {
+    transition: 0.5s ease-out;
+}
+
+li:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+footer {
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}

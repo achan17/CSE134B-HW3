@@ -1,0 +1,37 @@
+:root{
+    --main-bg-color: #bcc8ec;
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Raleway/static/Raleway-Light.ttf");
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-style: bold;
+    font-weight: 400;
+    src: url("../fonts/Raleway/static/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/Raleway/static/Raleway-Italic.ttf");
+}
+
+body{
+    font-family: "Raleway", Tahoma;
+    background-color: var(--main-bg-color);
+}
+
+picture{
+    float: left;
+}
+
+.work{
+    display: block;
+}
